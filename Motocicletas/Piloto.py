@@ -5,14 +5,15 @@ class Piloto:
         self.peso = peso
         
     def ver_atributos(self):
-        print("\n\t 😎")
+        print("\n  \___Piloto___/")
+        print("\t 😎")
         print(f" - Edad: {self.edad} años")
         print(f" - Categoria: {self.categoria}")
         print(f" - Peso: {self.peso} kg")
 
-piloto_1= Piloto(20,"MotoGP",65)
-piloto_2= Piloto(55,"Chopper",90)
-piloto_3 = Piloto(7,"Motocross Infantil",37)
+piloto_1= Piloto(25,"Moto GP",65)
+piloto_2= Piloto(19,"Motero",57)
+piloto_3 = Piloto(45,"Turismo",76)
 
 piloto_1.ver_atributos()
 piloto_2.ver_atributos()
